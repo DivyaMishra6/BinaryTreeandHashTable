@@ -58,5 +58,11 @@ namespace BinaryTreeAndHashTable
                 this.RightTree.Display();
             }
         }
+
+        //SIZE in ascending order
+        public void Size()
+        {
+            Console.WriteLine("Size" + " " + (7 * (this.leftcount + this.rightcount) - 1));
+        }
     }
 }
